@@ -1,8 +1,9 @@
-from binaryc_postprocess.extinction.base_extinction import BaseExtinction
+from binarycpostprocess.binaryc_postprocess.extinction.base_extinction import BaseExtinction
 
 
 class MacLeodWindExtinction(BaseExtinction):
-    def __init__(self, f_vir: float = 0.25, f_nu: float = 0.25, Xd: float = 5e-3, kappa_d: float = 1e3):
+    def __init__(self, f_vir: float = 0.25, f_nu: float = 0.25,
+                 Xd: float = 5e-3, kappa_d: float = 1e3):
         """
 
         :param f_vir:

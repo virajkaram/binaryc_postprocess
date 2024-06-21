@@ -1,4 +1,4 @@
-from binaryc_postprocess.lightcurve_models.base_lightcurve_models import BaseModelLightcurve
+from binarycpostprocess.binaryc_postprocess.lightcurve_models.base_lightcurve_models import (BaseModelLightcurve)
 import numpy as np
 
 
